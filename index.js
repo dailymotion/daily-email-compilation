@@ -3,6 +3,13 @@
 var jsdom = require('jsdom-daily')
   , juice = require('juice-daily')
 
+jsdom.defaultDocumentFeatures = {
+    QuerySelector: ['1.0']
+  , FetchExternalResources: false
+  , ProcessExternalResources: false
+  , MutationEvents: false
+}
+
 function dom(html) {
   return jsdom.jsdom(html, jsdom.level(1, 'core'), {forceRaw: true, ignoreChars: ['nbsp']})
 }
