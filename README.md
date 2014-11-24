@@ -4,13 +4,17 @@ Internal module to compile email templates
 
 ## Usage
 
-Installation
+### Installation
 
     $ npm install --save daily-email-compilation
 
-Usage
+### Usage
 
     var compile = require('daily-email-compilation')
 
     // both arguments are strings, returns a string
     var output = compile(html, css)
+
+### Tests
+
+    $ npm test
