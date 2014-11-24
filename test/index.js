@@ -25,9 +25,16 @@ describe('Should inline the css in the html', function() {
     assert.equal(result, output)
   })
 
-  it('should keep the twig attributes untouched', function() {
+  it('should keep twig untouched in html tags', function() {
     var input  = content('specs/input-3.html')
       , output = content('specs/output-3.html')
+      , result = compile(input, css)
+    assert.equal(result, output)
+  })
+
+  it('should keep twig untouched in html attributes', function() {
+    var input  = content('specs/input-4.html')
+      , output = content('specs/output-4.html')
       , result = compile(input, css)
     assert.equal(result, output)
   })
