@@ -1,0 +1,23 @@
+{
+  "name": "daily-email-compilation",
+  "version": "0.0.1",
+  "description": "Small wrapper to compile the email templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romainberger/daily-email-compilation.git"
+  },
+  "author": "Romain Berger <romain.berger@dailymotion.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romainberger/daily-email-compilation/issues"
+  },
+  "homepage": "https://github.com/romainberger/daily-email-compilation",
+  "dependencies": {
+    "jsdom-daily": "^0.9.2",
+    "juice-daily": "^0.5.3"
+  }
+}
