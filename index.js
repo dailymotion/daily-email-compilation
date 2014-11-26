@@ -2,6 +2,7 @@
 
 var jsdom = require('jsdom-daily')
   , juice = require('juice-daily')
+  , htmlparser2 = require('htmlparser2-daily')
 
 jsdom.defaultDocumentFeatures = {
     QuerySelector: ['1.0']
@@ -11,7 +12,11 @@ jsdom.defaultDocumentFeatures = {
 }
 
 function dom(html) {
-  return jsdom.jsdom(html, jsdom.level(1, 'core'), {forceRaw: true, ignoreChars: ['nbsp']})
+  return jsdom.jsdom(html, jsdom.level(1, 'core'), {
+      forceRaw: true
+    , ignoreChars: ['nbsp']
+    , parser: htmlparser2
+  })
 }
 
 function compile(html, css) {
