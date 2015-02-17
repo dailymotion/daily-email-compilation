@@ -1,7 +1,7 @@
 'use strict';
 
-var jsdom = require('jsdom-daily')
-  , juice = require('juice-daily')
+var jsdom = require('jsdom')
+  , juice = require('juice')
   , htmlparser2 = require('htmlparser2-daily')
 
 jsdom.defaultDocumentFeatures = {
