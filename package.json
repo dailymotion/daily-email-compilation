@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/dailymotion/daily-email-compilation",
   "dependencies": {
-    "jsdom-daily": "dailymotion/jsdom-daily",
-    "juice-daily": "dailymotion/juice-daily",
+    "jsdom-daily": "dailymotion/jsdom",
+    "juice-daily": "dailymotion/juice",
     "htmlparser2-daily": "dailymotion/htmlparser2-daily"
   },
   "devDependencies": {
