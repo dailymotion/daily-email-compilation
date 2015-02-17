@@ -1,6 +1,6 @@
 {
   "name": "daily-email-compilation",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Small wrapper to compile the email templates",
   "main": "index.js",
   "scripts": {
