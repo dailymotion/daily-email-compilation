@@ -1,6 +1,6 @@
 'use strict';
 
-var jsdom = require('jsdom-daily')
+var jsdom = require('jsdom')
   , juice = require('juice-daily')
   , htmlparser2 = require('htmlparser2-daily')
 
