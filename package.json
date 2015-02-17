@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/romainberger/daily-email-compilation.git"
+    "url": "https://github.com/dailymotion/daily-email-compilation.git"
   },
   "author": "Romain Berger <romain.berger@dailymotion.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/romainberger/daily-email-compilation/issues"
+    "url": "https://github.com/dailymotion/daily-email-compilation/issues"
   },
-  "homepage": "https://github.com/romainberger/daily-email-compilation",
+  "homepage": "https://github.com/dailymotion/daily-email-compilation",
   "dependencies": {
-    "jsdom-daily": "^0.9.2",
-    "juice-daily": "^0.5.3",
-    "htmlparser2-daily": "^3.8.2"
+    "jsdom-daily": "dailymotion/jsdom-daily",
+    "juice-daily": "dailymotion/juice-daily",
+    "htmlparser2-daily": "dailymotion/htmlparser2-daily"
   },
   "devDependencies": {
     "mocha": "^2.0.1"
