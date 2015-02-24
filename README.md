@@ -1,4 +1,4 @@
-# Dailymotion email compilation [![Build Status](https://travis-ci.org/romainberger/daily-email-compilation.png?branch=master)](https://travis-ci.org/romainberger/daily-email-compilation)
+# Dailymotion email compilation [![Build Status](https://travis-ci.org/dailymotion/daily-email-compilation.png?branch=master)](https://travis-ci.org/dailymotion/daily-email-compilation)
 
 Internal module to compile email templates
 
