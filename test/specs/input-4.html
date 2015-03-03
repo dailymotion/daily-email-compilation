@@ -1,3 +1,4 @@
-<div class="{% if 1 > 3 %}pizza-stole-my-heart{% endif %} {{ pizza_class }}" {{ pizza_dreams }}>
+{% set condition = 1 > 3 %}
+<div class="{% if condition %}pizza-stole-my-heart{% endif %} {{ pizza_class }}" {{ pizza_dreams }}>
     <span {{ something_about_pizza }}>If I could marry pepperoni pizza none of this would have any importance</span>
 </div>
